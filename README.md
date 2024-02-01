@@ -8,12 +8,12 @@ In our solution we implement the [Backtracking algorithm](https://en.wikipedia.o
 
 ### Time Complexit 
 
-The worst case time complexity is O(4^N) where N is the length of the sequence. The 4^N corresponds
-to all possible combinations of the number sequence if we only had 7s and 9s (worst case upper bound).
+The worst case time complexity is O(4^N * N) where N is the length of the sequence. The 4^N corresponds
+to all possible word combinations of the number sequence if we only had 7s and 9s (worst case upper bound). We will need to iterate through all comninations resulting in N times. 
 
 ## Space complexity
 
-We would need O(4^N). Worst case we would need to store all 4^N possible combinations. 
+We would need O(4^N) space. Worst case we would need to store all 4^N possible combinations.
 
 ## Run the code 
 
